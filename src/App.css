@@ -1,0 +1,88 @@
+/* src/App.css */
+
+*{
+	color: black;
+}
+h1{
+  font-weight: 800;
+  background-color: #005684;
+  color: antiquewhite;
+  padding: 4px;
+  font-size: 35px;
+  letter-spacing: 0px;
+}
+body {
+	font-family: Calibri;
+	margin: 0;
+	padding: 0;
+  height: fit-content;
+	background: rgb(239,20,20);
+  background: linear-gradient(299deg, rgba(239,20,20,1) 19%, rgba(19,188,223,1) 83%);
+}
+
+.App {
+	max-width: 600px;
+	margin: 30px auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-size: 20px;
+	display: block;
+  font-weight: 600;
+	margin-bottom: 5px;
+}
+
+input {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+}
+
+button {
+	background-color: #1f6cfa;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+  width: 150px;
+	border-radius: 5px;
+}
+
+button:hover {
+	background-color: #079ef5;
+}
+
+.item-list {
+	margin-top: 20px;
+}
+
+.item {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.total {
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+.download-btn {
+	background-color: #008CBA;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+	border-radius: 4px;
+	margin-top: 15px;
+}
+
+.download-btn:hover {
+	background-color: #005684;
+}
